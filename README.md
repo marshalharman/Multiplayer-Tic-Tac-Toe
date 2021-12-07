@@ -36,6 +36,10 @@ Email: f20180843@goa.bits-pilani.ac.in
 A single/multiplayer Tic Tac Toe game. A player can chose from a list of open games to be played another player or can create their own 2 player game. 
 ### Bugs:
   * Register/SignIn button takes some time to authenticate, hence user might press the button multiples times as no information of loading/authenticating is shown.  
+### Screenshots:
+<img src="1.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 ## c) TASKS DESCRIPTION
 ### Task1: Implementing Sign In:
@@ -64,7 +68,7 @@ A single/multiplayer Tic Tac Toe game. A player can chose from a list of open ga
   * Joining an open game:  Note::This part of assignment is partially completed (was facing some issues in the recycler view). Only the available games are shown.
   
   
-  
+ 
   
   
   
