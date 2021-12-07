@@ -63,19 +63,19 @@ public class LoginFragment extends Fragment {
                                 Toast.LENGTH_LONG).show();
                     }
                     else{
-                        createAccount(email,password);
+                        createAccount(email,password, v);
                     }
-                    if(mAuth.getCurrentUser() != null){
-                        NavDirections action = LoginFragmentDirections.actionLoginSuccessful();
-                        Navigation.findNavController(v).navigate(action);
-                    }
+//                    if(mAuth.getCurrentUser() != null){
+//                        NavDirections action = LoginFragmentDirections.actionLoginSuccessful();
+//                        Navigation.findNavController(v).navigate(action);
+//                    }
                 });
 
         return view;
     }
 
     // No options menu in login fragment.
-    public void createAccount(String email, String password){
+    public void createAccount(String email, String password, View v){
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
                     @Override
@@ -98,9 +98,13 @@ public class LoginFragment extends Fragment {
                             SharedPrefs.setWins(getContext(), newUser.getWins());
                             SharedPrefs.setLosses(getContext(), newUser.getLosses());
 
+
+                            NavDirections action = LoginFragmentDirections.actionLoginSuccessful();
+                            Navigation.findNavController(v).navigate(action);
+
                         } else {
                             if(task.getException().getMessage().equals("The email address is already in use by another account.")){
-                                signIn(email,password);
+                                signIn(email,password, v);
                             }
                             else{
                             Toast.makeText(getActivity(), "Authentication failed." + task.getException().getMessage(),
@@ -111,7 +115,7 @@ public class LoginFragment extends Fragment {
                 });
     }
 
-    public void signIn(String email, String password){
+    public void signIn(String email, String password,View v){
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(getActivity() , new OnCompleteListener<AuthResult>() {
                     @Override
@@ -158,6 +162,10 @@ public class LoginFragment extends Fragment {
 //                                        PlayerInfo userInfo = task.getResult().getValue(PlayerInfo.class);
                                         String email = task.getResult().getValue(String.class);
                                         SharedPrefs.setEmail(getContext(),email);
+
+
+                                        NavDirections action = LoginFragmentDirections.actionLoginSuccessful();
+                                        Navigation.findNavController(v).navigate(action);
                                     }
                                 }
                             });
