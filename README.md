@@ -38,11 +38,26 @@ A single/multiplayer Tic Tac Toe game. A player can chose from a list of open ga
   * Register/SignIn button takes some time to authenticate, hence user might press the button multiples times as no information of loading/authenticating is shown.  
 ### Screenshots:
 <img src="1.jpg"
-     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;"
      width="100"
      height="200"/>
-
+     
+<img src="2.jpg"
+     style="float: left; margin-right: 10px;"
+     width="100"
+     height="200"/>
+<img src="3.jpg"
+     style="float: left; margin-right: 10px;"
+     width="100"
+     height="200"/>
+<img src="4.jpg"
+     style="float: left; margin-right: 10px;"
+     width="100"
+     height="200"/>
+<img src="5.jpg"
+     style="float: left; margin-right: 10px;"
+     width="100"
+     height="200"/>
 ## c) TASKS DESCRIPTION
 ### Task1: Implementing Sign In:
   * Firebase authentication is used.
