@@ -84,8 +84,17 @@ A single/multiplayer Tic Tac Toe game. A player can chose from a list of open ga
       iii) The code of the adapter is completed, and on the dashboads, currently available games are shown.
   * Joining an open game:  Note::This part of assignment is partially completed (was facing some issues in the recycler view). Only the available games are shown.
   
-  
  
+ ## d) Instructions to run the app:
+  * On the login fragment, the user has to enter an email of valid format( xxxx @ xxxx.xxxx ,ex: xyz@abc.com) and password length must be greater than 6.
+  * After pressing, register/signin button, wait for a few seconds for the authentication process.
+  * While playing the single player game, the computer just looks an empty slot and searches linearly, so to see winning results, you can just place X's in the
+second/third row. To see losing result, place two X's in the second row and one X in the third row, by this time the computer will complete the first row and win.
+
+## e) Accessibility:
+  * Not tested.
+## f) Number of hours spent: 25
+## g) Difficulty: 8
   
   
   
