@@ -46,6 +46,8 @@ A single/multiplayer Tic Tac Toe game. A player can chose from a list of open ga
   * If the authentication is successful, then the wins,losses and email are stored in a sharedPreference file for sharing data amongst fragment and maintaining a cache.
   
 ### Task2: Single Player Game:
+  * User makes the first move, and a computer player follows. The computer follows a very simple algorithm. It searches the cells linearly and looks for an empty cell, once empty cell is found, it places an 'O' in that cell.
+  * After every step, it checked whether the game has reached a terminal state or not. On win/loss, the corresponding wins/losses values of the user are updated in the database. 
   * A list of available cells is maintained. Every time a cell's value is updated, the boolean value for the availabilty is set to false.
-  * The listeners 
+  * The listeners can perform the task only if the cell is availabe.
   
