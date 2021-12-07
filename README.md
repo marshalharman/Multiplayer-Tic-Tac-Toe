@@ -39,7 +39,9 @@ A single/multiplayer Tic Tac Toe game. A player can chose from a list of open ga
 ### Screenshots:
 <img src="1.jpg"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;"
+     width="100"
+     height="200"/>
 
 ## c) TASKS DESCRIPTION
 ### Task1: Implementing Sign In:
