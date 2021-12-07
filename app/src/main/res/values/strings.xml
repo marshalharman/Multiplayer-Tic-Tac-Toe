@@ -24,4 +24,7 @@
   <string name="yes">Yes</string>
   <string name="cancel">Cancel</string>
   <string name="confirm">Confirm</string>
+    <string name="game_over">GAME OVER</string>
+  <string name="game_over_win">Congratulations!</string>
+    <string name="ok">OK</string>
 </resources>
