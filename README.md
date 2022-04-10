@@ -1,8 +1,8 @@
 # Tic Tac Toe
+### A single/multiplayer Tic Tac Toe game. A player can chose from a list of open games to be played another player or can create their own 2 player game.
+<!-- This is a starter code for the Tic Tac Toe multiplayer game app assignment. -->
 
-This is a starter code for the Tic Tac Toe multiplayer game app assignment.
-
-It uses Android Navigation Component, with a single activity and three fragments:
+<!-- It uses Android Navigation Component, with a single activity and three fragments:
 
 - The DashboardFragment is the home screen. If a user is not logged in, it should navigate to the
 LoginFragment. (See the TODO comment in code.)
@@ -18,47 +18,34 @@ forfeit the game. (See the FIXME comment in code.)
 
 - A "log out" action bar menu is shown on both the dashboard and the game fragments. Clicking it
 should log the user out and show the LoginFragment. This click is handled in the MainActivity.
-
-
-
-## a) DETAILS
-Project Name: Tic Tac Toe
-
-Name: Harman Marshal Singh
-
-BITS ID: 2018B4A70843G
-
-Email: f20180843@goa.bits-pilani.ac.in
-
-
-## b) APP DESCRIPTION
-### Tic Tac Toe
-A single/multiplayer Tic Tac Toe game. A player can chose from a list of open games to be played another player or can create their own 2 player game. 
-### Bugs:
-  * Register/SignIn button takes some time to authenticate, hence user might press the button multiples times as no information of loading/authenticating is shown.  
+ -->
+<!-- 
+### Tic Tac Toe -->
+ 
+<!-- ### Bugs:
+  * Register/SignIn button takes some time to authenticate, hence user might press the button multiples times as no information of loading/authenticating is shown.   -->
 ### Screenshots:
 <img src="1.jpg"
      style="float: left; margin-right: 10px;"
-     width="100"
-     height="200"/>
-     
+     width="200"
+     height="400"/>
 <img src="2.jpg"
      style="float: left; margin-right: 10px;"
-     width="100"
-     height="200"/>
+     width="200"
+     height="400"/>
 <img src="3.jpg"
      style="float: left; margin-right: 10px;"
-     width="100"
-     height="200"/>
+     width="200"
+     height="400"/>
 <img src="4.jpg"
      style="float: left; margin-right: 10px;"
-     width="100"
-     height="200"/>
+     width="200"
+     height="400"/>
 <img src="5.jpg"
      style="float: left; margin-right: 10px;"
-     width="100"
-     height="200"/>
-## c) TASKS DESCRIPTION
+     width="200"
+     height="400"/>
+<!-- ## c) TASKS DESCRIPTION
 ### Task1: Implementing Sign In:
   * Firebase authentication is used.
   * The user has to enter an email of valid format( xxxx @ xxxx.xxxx ) and password length should be greater than 6.
@@ -94,7 +81,7 @@ second/third row. To see losing result, place two X's in the second row and one 
 ## e) Accessibility:
   * Not tested.
 ## f) Number of hours spent: 25
-## g) Difficulty: 8
+## g) Difficulty: 8 -->
   
   
   
